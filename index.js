@@ -86,21 +86,23 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions)
-    .then(answers => {
+    inquirer.prompt(questions).then(answers =>{
         console.log(answers);
         axios
-        get("https://api.github.com/users/" + answers.username)
+        .get("https://api.github.com/users/"+ answers.username)
         .then(response => {
             console.log(response);
-            const imageURL = responsedata.avatar_url;
+            var imageURL = response.data.avatar_url;
             answers.image = imageURL;
             console.log(imageURL);
-            
-        })
-    })
-
+            fs.writeFile("README.md", generateMarkdown(answers), function (err) {
+                if (err) {
+                    throw (err);
+                }
+            });
+        });
+    });
+  
 }
-
 // function call to initialize program
 init();
