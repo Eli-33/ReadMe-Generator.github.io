@@ -22,22 +22,23 @@ function generateMarkdown(data) {
   ${data.contributors}
 
   ## Test
+  ${data.test}
+
   
-
-## Questions
-  If you have any questions, contact ${data.username} on GitHub.
-
   ## License
- 
-
-
-  ## Author 
-  
+  ${data.license}
 
   ## Badges
+  ${answers.license}
+  
+  ## Author 
+  ![GitHub profile pic](${data.image})
 
+  ## Questions
+  If you have any questions, contact ${data.username} on GitHub.
 
 `;
+
 }
 
 module.exports = generateMarkdown;
