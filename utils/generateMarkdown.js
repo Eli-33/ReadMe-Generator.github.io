@@ -2,7 +2,7 @@
 function generateMarkdown(data, badge) {
   return `
  
-  # Project Title: ${data.title}
+  # Project Title:${data.Title}
 
   ## Project Description : ${data.desc}
 
@@ -37,6 +37,9 @@ function generateMarkdown(data, badge) {
   
   ## Author 
   ![GitHub profile pic](${data.image})
+
+  ## Email
+  ${data.email}
 
   ## Questions
   If you have any questions, contact ${data.username} on GitHub.

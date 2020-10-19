@@ -1,6 +1,7 @@
 
  
-  # Project Title: undefined
+  # Project Title:
+   Generate a README.md file
 
   ## Project Description : This application will generate a README.md file for your current project
 
@@ -28,13 +29,16 @@
 
   
   ## License
-  Mozilla Public License 2.0
+  MIT License
 
   ## Badges
-  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Author 
   ![GitHub profile pic](https://avatars1.githubusercontent.com/u/66298307?v=4)
+
+  ## Email
+  elijam1608@gmail.com
 
   ## Questions
   If you have any questions, contact Eli-33 on GitHub.
