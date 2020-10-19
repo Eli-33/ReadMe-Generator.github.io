@@ -15,23 +15,23 @@
   * [Badges](#badges)
 
   ## Installation
-  Step1: Run npm install and Step2: Run node index.js
+  Step1: Run npm install and Step2: Run npm axios --save and Step3: Run node index.js
 
   ## Usage
   1.Run node index.js 2.Answers the questions 3.The README.md file will be created. 
 
   ## Contributors
-   Elahe Jamshidi, Amir Khademi and David Brown
+   Elahe Jamshidi
 
   ## Test
   Insert your tests sample here...
 
   
   ## License
-  GNU AGPLv3
+  Mozilla Public License 2.0
 
   ## Badges
-  GNU AGPLv3
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Author 
   ![GitHub profile pic](https://avatars1.githubusercontent.com/u/66298307?v=4)

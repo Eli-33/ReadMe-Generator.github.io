@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data, badge) {
   return `
  
   # Project Title: ${data.title}
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Badges
-  ${answers.license}
+  ${badge}
   
   ## Author 
   ![GitHub profile pic](${data.image})
