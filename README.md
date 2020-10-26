@@ -1,7 +1,6 @@
 
  
-  # Project Title:
-   Generate a README.md file
+  # Project Title:Generate a README.md file
 
   ## Project Description : This application will generate a README.md file for your current project
 
@@ -9,6 +8,8 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
+  * [Images](#Images)
+  * [Video](#Video)
   * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
@@ -24,15 +25,21 @@
   ## Contributors
    Elahe Jamshidi
 
+  ## Images
+  [Images If Available]N/A
+
+  ## Video
+  [Video If Available]https://youtu.be/_OjnZV6E5kE
+
   ## Test
   Insert your tests sample here...
 
   
   ## License
-  MIT License
+  Mozilla Public License 2.0
 
   ## Badges
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Author 
   ![GitHub profile pic](https://avatars1.githubusercontent.com/u/66298307?v=4)

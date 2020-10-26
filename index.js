@@ -62,6 +62,34 @@ const questions = [
         default : "1.Run node index.js 2.Answers the questions 3.The README.md file will be created. ",
     },
     {
+        type: 'input',
+        name: 'images',
+        message: "Please provide a URL link to an image or gallery of images showcasing the project. If you don't have one, just put 'N'",
+        validate: contributeInput => {
+            if (contributeInput) {
+                return true;
+            }
+            else {
+                console.log('No input detected. Please provide a URL link.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'video',
+        message: "Please provide a URL link to a video showcasing the project. If you don't have one, just put 'N'",
+        validate: contributeInput => {
+            if (contributeInput) {
+                return true;
+            }
+            else {
+                console.log('No input detected. Please provide a URL link.');
+                return false;
+            }
+        }
+    },
+    {
         type: "input",
         name : "contributors",
         message : "please enter git hub user names of the contributor if any (If there are mulitple contributor, seperate names with comma and no space! )",

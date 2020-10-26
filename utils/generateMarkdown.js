@@ -10,6 +10,8 @@ function generateMarkdown(data, badge) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
+  * [Images](#images)
+  * [Video](#video)
   * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
@@ -24,6 +26,12 @@ function generateMarkdown(data, badge) {
 
   ## Contributors
   ${data.contributors}
+
+  ## Images
+  [Images If Available](${data.images})
+  
+  ## Video
+  [Video If Available](${data.video})
 
   ## Test
   ${data.test}
