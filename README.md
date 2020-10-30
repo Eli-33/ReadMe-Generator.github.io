@@ -8,8 +8,8 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
-  * [Images](#Images)
-  * [Video](#Video)
+  * [Images](#images)
+  * [Video](#video)
   * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
@@ -26,10 +26,10 @@
    Elahe Jamshidi
 
   ## Images
-  [Images If Available]N/A
-
+  [Images If Available](N)
+  
   ## Video
-  [Video If Available]https://youtu.be/_OjnZV6E5kE
+  [Video If Available](N)
 
   ## Test
   Insert your tests sample here...
