@@ -26,11 +26,11 @@
    Elahe Jamshidi
 
   ## Images
-  (https://github.com/Eli-33/ReadMe-Generator.github.io/blob/master/ScreenShots/1.PNG)
-  (https://github.com/Eli-33/ReadMe-Generator.github.io/blob/master/ScreenShots/2.PNG)
+  ![Screenshot 1](https://github.com/Eli-33/ReadMe-Generator.github.io/blob/master/ScreenShots/1.PNG)
+  ![Screenshot 2](https://github.com/Eli-33/ReadMe-Generator.github.io/blob/master/ScreenShots/2.PNG)
 
   ## Video
-  (https://github.com/Eli-33/ReadMe-Generator.github.io/blob/master/Untitled_%20Oct%2030%2C%202020%201_37%20PM.gif)
+  ![Gif](https://github.com/Eli-33/ReadMe-Generator.github.io/blob/master/Untitled_%20Oct%2030%2C%202020%201_37%20PM.gif)
 
   ## Test
   Insert your tests sample here...
